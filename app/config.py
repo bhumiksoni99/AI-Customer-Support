@@ -9,8 +9,8 @@ class Settings(BaseSettings):
     google_client_secret: str
     google_refresh_token: str
     database_url: str
-    classifier_model: str = "gemini-2.5-flash-lite"
-    agent_model: str = "gemini-2.5-flash"
+    classifier_model: str = "google:gemini-3.5-flash-lite"
+    agent_model: str = "google:gemini-3.5-flash"
     poll_interval_seconds: int = 60
     dashboard_username: str = "admin"
     dashboard_password: str = ""
